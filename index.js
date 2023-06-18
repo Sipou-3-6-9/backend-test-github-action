@@ -10,7 +10,7 @@ import staffBirthdayReminder from './functions/staffBirthdayReminder.js'
 
 
 (async function(){
-
+  console.log("Hello World...");
   dotenv.config()
 
   await db_connection()
